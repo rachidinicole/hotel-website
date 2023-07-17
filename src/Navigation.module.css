@@ -1,0 +1,38 @@
+.navigation {
+    display: flex;
+    
+
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+    background-color: #fefdff;
+    align-items: center;
+    justify-content: end;
+    position: absolute;
+width: 1000px;
+height: 120px;
+left: calc(70% - 1512px/2 + 1px);
+top: -23px;
+
+
+}
+.navigation li {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.navigation li a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.navigation button {
+    margin-inline: 50px;
+    margin-left: 20%;
+    padding: 7px 45px;
+    background: #40128B;
+    color: #fff;
+    
+}

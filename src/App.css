@@ -1,38 +1,1005 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:ital,wght@0,200;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body  {
+  font-family: 'Poppins';
 }
+.nick{ 
+  /* COLE ESSENCE */
+  
+  position: absolute;
+  width: 323px;
+  height: 60px;
+  left: calc(50% - 323px/2 - 474.5px);
+  top: 179px;
+  
+  font-family: 'Fira Sans';
+  font-style:'Fira Sans';
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+  /* identical to box height */
+  
+  color: #40128B;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  
+  
   }
+  .nick3 {/* Every moment feels like the first time in cole essence */
+
+    position: absolute;
+    width: 261px;
+    height: 36px;
+    left: calc(50% - 261px/2 - 505.5px);
+    top: 483px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    
+    color: #1C1C1C;
+    
+     }
+.nick2 {
+  /* Hotel for every moment rich in emotion */
+
+position: absolute;
+width: 401px;
+height: 195px;
+left: calc(50% - 401px/2 - 435.5px);
+top: 265px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 65px;
+
+color: #1C1C1C;
+
+
+}
+  .nav {
+
+position: absolute;
+width: 1000px;
+height: 120px;
+left: calc(50% - 1512px/2 + 1px);
+top: -23px;
+background: #FAFAFA;
+display: flex;
+align-items: center;
+justify-content: end;
+
+  }
+
+
+/* nav links 
+
+position: absolute;
+width: 951px;
+height: 55px;
+left: 447px;
+top: 9px;
+
+
+
+/* links 
+
+position: absolute;
+width: 505px;
+height: 23px;
+left: 447px;
+top: 25px;
+*/
+
+.home {
+
+  position: absolute;
+  width: 46px;
+  height: 23px;
+  left: calc(50% - 50px/2 - 286px);
+  top: 25px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  /* identical to box height */
+  
+  color: #40128B;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.Explore {
+
+position: absolute;
+width: 55px;
+height: 23px;
+left: calc(50% - 55px/2 - 175.5px);
+top: 25px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+
+color: #000000;
+
+}
+
+.Rooms { 
+
+position: absolute;
+width: 53px;
+height: 23px;
+left: calc(50% - 53px/2 - 60.5px);
+top: 25px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+
+color: #000000;
+
+}
+
+.About {
+
+position: absolute;
+width: 46px;
+height: 23px;
+left: calc(50% - 46px/2 + 50px);
+top: 25px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+
+color: #000000;
+
+}
+
+.Contact {
+
+position: absolute;
+width: 62px;
+height: 23px;
+left: calc(50% - 62px/2 + 165px);
+top: 25px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+
+color: #000000;
+
+}
+
+.btn {
+
+position: absolute;
+width: 165px;
+height: 55px;
+left: 1233px;
+top: 9px;
+}
+
+
+/* Rectangle 1 *
+
+position: absolute;
+width: 165px;
+height: 55px;
+left: calc(50% - 165px/2 + 559.5px);
+top: 9px;
+
+background: #40128B;
+border-radius: 5px;*/
+
+
+.Booknow {
+
+position: absolute;
+width: 165px;
+height: 55px;
+left: 1233px;
+top: 9px; 
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 22px;
+/* identical to box height */
+color: #FFFFFF;
+justify-content: center;
+border-radius: 5px;
+
+
+  }
+  
+
+  /* COLE ESSENCE */
+.test-font{
+  position: absolute;
+  width: 323px;
+  height: 60px;
+  left: calc(50% - 323px/2 - 474.5px);
+  top: 179px;
+  
+  font-family: 'Dancing Script', cursive;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+  /* identical to box height */
+  
+  color: #40128B;
+}
+
+
+/* Hotel for every moment rich in emotion */
+
+
+
+/* Home */
+
+
+#dozens{
+  /* display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: 23px;
+  /* margin-bottom: 23px; */
+  /* height: 93px;
+  width: 19vw; */
+  /* align-items: center; */
+  /* position: relative; */
+  /* bottom: 188px; */
+  /* padding: 700px;
+  */ 
+  /* Rectangle 5 */
+
+position: absolute;
+width: 626px;
+height: 700px;
+left: calc(50% - 626px/2 + 323px);
+top: 120px;
+
+background: #FAFAFA;
+
+}
+.book{
+
+position: absolute;
+width: 120px;
+height: 44px;
+left: calc(50% - 158px/2 - 554px);
+top: 569px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+background-color:#40128B ;
+padding-bottom: 23px;
+padding-top: 7px;
+border-radius: 24px;
+
+color: #FFFFFF;
+
+
 }
 
-.App-link {
-  color: #61dafb;
+.navbar2 {
+position: absolute;
+width: 1172px;
+height: 40px;
+left: 311px;
+top: 638px;
+background-color: #ffffff;
+align-items: center;
+padding-top: 2%;
+padding-bottom: 2%;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hOMEB1 {
+
+  /* Group 1 */
+
+padding: 40px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 1000;
+font-size: 15px;
+line-height: 22px;
+color: #000000;
+margin-right: 50px;
+
+
 }
+
+.BOOK {
+
+  position:absolute;
+  left: 1060px;
+  height: 50px;
+  width: 100px;
+  top: 25px;
+  border-radius: 20px;
+  background-color:#40128B ;
+  color: #FFFFFF;
+}
+  
+ #francesca{
+  position: absolute;
+  width: 1512px;
+  height: 700px;
+  left: calc(50% - 1512px/2);
+  top: 120px;
+  background-color:#25231F ;
+  
+  
+ }
+.Aboutus{
+  position: absolute;
+width: 264px;
+height: 75px;
+left: calc(50% - 264px/2);
+top: 53px;
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 800;
+font-size: 60px;
+line-height: 75px;
+text-align: center;
+color: #5b0770;
+
+
+
+}
+
+
+
+#purple{
+ /* Rectangle 34 */
+
+position: absolute;
+width: 458px;
+height: 513px;
+left: 290px;
+top: 915px;
+
+
+}
+
+#manager{
+  /* Rectangle 33 */
+
+position: absolute;
+width: 458px;
+height: 513px;
+left: 259px;
+top: 940px;
+}
+
+.secret{
+position: absolute;
+width: 671px;
+height: 622px;
+left: 1030px;
+top: 915px;
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 19px;
+text-align: justify;
+
+
+}
+.july{
+  /* Nicole Rachidi (Hotel Manager) */
+
+position: absolute;
+width: 436px;
+height: 38px;
+left: 300px;
+top: 1430px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 29px;
+line-height: 38px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+}
+.rock{
+  /* Clients */
+
+position: absolute;
+width: 96px;
+height: 38px;
+left: 999px;
+top: 1611px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 38px;
+/* identical to box height */
+text-align: justify;
+
+color: #000000;
+
+
+}
+#logoA{
+  /* image 6 */
+
+position: absolute;
+width: 76.4px;
+height: 45px;
+left: 659px;
+top: 1743px;
+
+
+}
+#logoB{
+/* image 5 */
+
+position: absolute;
+width: 54px;
+height: 54px;
+left: 800px;
+top: 1733px;
+
+
+}
+#logoF{
+  /* image 7 */
+
+position: absolute;
+width: 56.24px;
+height: 57px;
+left: 940px;
+top: 1737px;
+
+}
+#logoD{
+  /* image 4 */
+
+position: absolute;
+width: 36px;
+height: 30px;
+left: 1111px;
+top: 1759px;
+
+}
+#logoG{
+  /* image 8 */
+
+position: absolute;
+width: 81px;
+height: 81px;
+left: 1200px;
+top: 1733px;
+
+
+}
+
+.FOOTER {
+
+  position: relative;
+
+  top: 1900px;
+ 
+  width: 3605px;
+  height: 222px;
+  background-color: #9336b4;
+}
+.jack{
+  /* COLE ESSENCE */
+
+position: absolute;
+width: 198px;
+height: 36px;
+left: 10%;
+top: 30px;
+
+font-family: 'Dancing Script';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+/* identical to box height */
+text-align: justify;
+
+color: #40128B;
+
+
+}
+.vibe{
+  /* The service at the Hotel Monteleone was exceptional. There was absolutely no issue that was not addressed timely and with satisfactory results. We were particulary impressed with how the hotel staff anticipated our needs (periodically coming by the Board Room to check with us) */
+
+position: absolute;
+width: 277px;
+height: 98px;
+left: 10%;
+top: 100px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+text-align: justify;
+
+color: #edebf1;
+
+
+}
+.Gunna{
+  position: absolute;
+width: 200px;
+height: 36px;
+left: 25%;
+top: 30px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 19px;
+line-height: 14px;
+text-align: justify;
+
+color: #edebf1;
+}
+.cut{
+  position: absolute;
+width: 277px;
+height: 98px;
+left: 25%;
+top: 100px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+text-align: justify;
+
+color: #edebf1;
+
+}
+.hen{
+  position: absolute;
+width: 277px;
+height: 98px;
+left: 25%;
+top: 56%;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+text-align: justify;
+
+color: #edebf1;
+ 
+}
+.cow{
+  position: absolute;
+width: 277px;
+height: 98px;
+left: 25%;
+top: 66%;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+text-align: justify;
+
+color: #edebf1;
+}
+.dog{
+  position: absolute;
+  width: 277px;
+  height: 98px;
+  left: 25%;
+  top: 74%;
+  
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: justify;
+  
+  color: #edebf1;
+}
+.bad{
+  position: absolute;
+  width: 200px;
+  height: 36px;
+  left: 30%;
+  top: 30px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 14px;
+  text-align: justify;
+  
+  color: #edebf1;
+}
+.city{
+  position: absolute;
+width: 277px;
+height: 98px;
+left: 30%;
+top: 100px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+text-align: justify;
+
+color: #edebf1;
+}
+.bat{
+  position: absolute;
+  width: 277px;
+  height: 98px;
+  left: 30%;
+  top: 56%;
+  
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: justify;
+  
+  color: #edebf1;
+}
+.yah{
+  position: absolute;
+width: 277px;
+height: 98px;
+left: 30%;
+top: 66%;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+text-align: justify;
+
+color: #edebf1;
+}
+.king{
+  position: absolute;
+  width: 277px;
+  height: 98px;
+  left: 30%;
+  top: 74%;
+  
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: justify;
+  
+  color: #edebf1;  
+}
+.queen{
+  position: absolute;
+  width: 200px;
+  height: 36px;
+  left: 35%;
+  top: 30px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 14px;
+  text-align: justify;
+  
+  color: #edebf1; 
+}
+.prince{
+  position: absolute;
+width: 277px;
+height: 98px;
+left: 35%;
+top: 100px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+text-align: justify;
+
+color: #edebf1;
+}
+.art{
+  position: absolute;
+  width: 277px;
+  height: 98px;
+  left: 35%;
+  top: 56%;
+  
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: justify;
+  
+  color: #edebf1; 
+}
+.sweet{
+  position: absolute;
+  width: 277px;
+  height: 98px;
+  left: 35%;
+  top: 66%;
+  
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: justify;
+  
+  color: #edebf1;
+}
+.salt{
+  position: absolute;
+  width: 277px;
+  height: 98px;
+  left: 35%;
+  top: 74%;
+  
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: justify;
+  
+  color: #edebf1;  
+}
+.girl{
+  position: absolute;
+  width: 200px;
+  height: 36px;
+  left: 39%;
+  top: 30px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 14px;
+  text-align: justify;
+  
+  color: #edebf1;  
+}
+.drink{
+  position: absolute;
+  width: 277px;
+  height: 98px;
+  left: 39%;
+  top: 100px;
+  
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: justify;
+  
+  color: #edebf1; 
+}
+.sky{
+  position:absolute;
+  left: 45%;
+  height: 38px;
+  width: 88px;
+  top: 67%;
+  border-radius: 20px;
+  background-color:#40128B ;
+  color: #FFFFFF;
+}
+
+.new {
+  position:absolute;
+  left: 39%;
+  height: 38px;
+  width: 299px;
+  top: 66%;
+  border-radius: 20px;
+
+}
+#suites{
+  position: absolute;
+  width: 1512px;
+  height: 899px;
+  left: calc(50% - 1512px/2);
+  top: 120px;
+  background-color:#25231F ;
+  
+}
+.Durk{
+  position: absolute;
+width: 480px;
+height: 75px;
+left: calc(50% - 659px/2);
+bottom: 43%;
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 80;
+font-size: 60px;
+text-align: center;
+color: #5b0770;
+padding: 2%;
+
+}
+.zay{
+  bottom: 56px
+}
+#von{
+  position: absolute;
+  width: 1530px;
+  height: 899px;
+  left: calc(50% - 1512px/2);
+  top: 120px;
+  background-color:#25231F ;
+}
+.slump{
+  position: absolute;
+  width: 480px;
+  height: 75px;
+  left: calc(50% - 659px/2);
+  bottom: 43%;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 80;
+  font-size: 60px;
+  text-align: center;
+  color: #5b0770;
+  padding: 2%;
+  
+}
+.gleesh{
+/* The elegant luxury bedrooms in this gallery showcase custom interior designs & decorating ideas. View pictures and find your perfect luxury bedroom design. */
+
+position: absolute;
+width: 654px;
+height: 75px;
+left: calc(50% - 654px/2);
+top: 496px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 25px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.stick{
+  position: absolute;
+width: 654px;
+height: 75px;
+left: 7%;
+top: 115%;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 25px;
+text-align: center;
+
+color: #0f0f0f;
+}
+.whole{
+  position:absolute;
+  left: 20%;
+  height: 38px;
+  width: 299px;
+  top: 120%;
+  border-radius: 20px;
+ 
+}
+.doodie{
+  position: absolute;
+  width: 654px;
+  height: 75px;
+  left: 44%;
+  top: 115%;
+  
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  
+  color: #0f0f0f;
+}
+.boon{
+  position:absolute;
+  left: 60%;
+  height: 38px;
+  width: 299px;
+  top: 120%;
+  border-radius: 20px;
+}
+.moonie{
+  position: absolute;
+  width: 654px;
+  height: 75px;
+  left: 7%;
+  top: 125%;
+  
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  
+  color: #0f0f0f;
+}
+.moon{
+  position:absolute;
+  left: 20%;
+  height: 390px;
+  width: 1070px;
+  top: 130%;
+  border-radius: 20px;
+  padding-top: 0%;
+  line-height: 19px;
+  
+}
+#rich{
+  position: absolute;
+  width: 1530px;
+  height: 720px;
+  left: calc(50% - 1512px/2);
+  top: 1710px;
+  background-color:#25231F ; 
+}
+
