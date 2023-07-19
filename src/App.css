@@ -1003,3 +1003,75 @@ color: #0f0f0f;
   background-color:#25231F ; 
 }
 
+#cascade{
+  position: absolute;
+  width: 1512px;
+  height: 700px;
+  left: calc(50% - 1512px/2);
+  top: 120px;
+  background-color:#25231F ;
+  
+  
+ }
+ .seun{
+  /* Take a tour */
+
+position: absolute;
+width: 209px;
+height: 47px;
+left: calc(50% - 209px/2 - 1.5px);
+top: 900px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 47px;
+/* identical to box height */
+
+color: #1C1C1C;
+
+
+ }
+ #mmaswi{
+  position: absolute;
+  width: 1320px;
+  height: 720px;
+  left: calc(50% - 1310px/2);
+  top: 1100px;
+  background-color:#25231F ; 
+  
+
+ }
+ #copy{
+  position: absolute;
+  width: 1320px;
+  height: 720px;
+  left: calc(50% - 1310px/2);
+  top: 2190px;
+  background-color:#25231F ; 
+ 
+ }
+ #chesley{
+  position: absolute;
+  width: 1320px;
+  height: 720px;
+  left: calc(50% - 1310px/2);
+  top: 3190px;
+  background-color:#25231F ; 
+ 
+ }
+ .cease{
+  background-color: #9336b4;
+  position: relative;
+  top: 2400px;
+  width: 3605px;
+  height: 222px;
+ }
+ .pork{
+  background-color: #9336b4;
+  position: relative;
+  top: 3999px;
+  width: 3605px;
+  height: 222px;
+ }

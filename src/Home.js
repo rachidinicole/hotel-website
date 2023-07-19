@@ -25,7 +25,7 @@ const Home = () => {
       <button className='BOOK'>Book now</button>
     </nav>
     </div>
-    <p className='zay'>Our facilities</p>
+    {/* <p className='zay'>Our facilities</p> */}
     </div>
   );
 };
